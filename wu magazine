@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>伍永强 <p></p>Eddy Virgo - classic publisher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    /* Base Layout */
+    body {
+      margin: 0;
+      padding: 0;
+      background: #FFD700; /* Golden background */
+      color: #222;
+      font-family: 'Orbitron', sans-serif;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+    }
+    
+    /* Navigation with Logo at Top Left */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #B8860B; /* Darker gold */
+      padding: 10px 20px;
+      z-index: 1000;
+    }
+    .logo img {
+      height: 50px;
+    }
+    .menu a {
+      color: #fff;
+      margin: 0 15px;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+    .menu a:hover {
+      color: #222;
+    }
+    
+    /* Floating Vertical Social Bar (Middle Right) */
+    .floating-bar {
+      position: fixed;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1100;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .floating-bar a {
+      width: 40px;
+      height: 40px;
+      background: #B8860B;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: transform 0.3s, background 0.3s;
+    }
+    .floating-bar a:hover {
+      transform: scale(1.2);
+      background: #DAA520;
+    }
+    
+    /* Header Section */
+    header {
+      background: linear-gradient(135deg, #FFD700, #B8860B);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      padding-top: 80px; /* avoid overlap with nav */
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      z-index: 1;
+      padding: 0 20px;
+      color: #222;
+    }
+    
+    /* Section Styling */
+    .section {
+      padding: 60px 20px;
+      background: #FFF8DC; /* Light golden/cornsilk */
+      margin: 20px 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #8B4513; /* SaddleBrown */
+    }
+    h3 {
+      color: #8B4513;
+      margin-bottom: 10px;
+    }
+    .info-block {
+      margin-bottom: 20px;
+      font-size: 1em;
+      line-height: 1.8;
+    }
+    
+    /* About Section: Two-Column Layout */
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    .about-photo, .about-text {
+      flex: 1 1 300px;
+    }
+    .about-photo img {
+      width: 100%;
+      max-width: 300px;
+      border: 5px solid #8B4513;
+      border-radius: 10px;
+    }
+    
+    /* Social Media Icons in Contact Section */
+    .social-icons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-icons a {
+      color: #8B4513;
+      margin: 0 10px;
+      font-size: 1.5em;
+      transition: transform 0.3s, color 0.3s;
+    }
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #222;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #B8860B;
+      color: #fff;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .menu a {
+        margin: 0 10px;
+      }
+    }
+</style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#home">
+        <img src="https://media-hosting.imagekit.io/cfac550ef7d54387/Edv%2520HiHello%2520cover%2520Logo%2520pp.png?Expires=1839486974&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mMxH-cBaJaUGTLy6VovVmtXlb5mTh~m8XKLoEhglnTvZDj0fqUh9Ab7yiv6YxMrBMr5hSn0X1XCOb8-RUnqsfTTfZV8rwjxNVySgMyWjiZopBhneFclp-Z8xcPAFoYGyFmam5kGBO6lemhfygimUAMQE9CnCJSQf6tMbXUyRmZkiZz5TV5e12UbqguvIr-zdF5lQi4vMg1vRdLuLA8j1r4xEpknty2cZEneEuKCVhfbnNCQK6N4VGZgz8-di9~Q-hlyDjb12Spj16Aj7J5d0VnKLt17sh-n2p7KtYHFOu~bGoBRQjtt0p780MGRrc8zxkU6psW~vNWImJ55hYanHPg__" alt="Logo">
+      </a>
+    </div>
+    <div class="menu">
+      <a href="#about">关于我</a>
+      <a href="#enterprises">企业与职务</a>
+      <a href="#forum">论坛 & 文章</a>
+      <a href="#contact">联系方式</a>
+    </div>
+  </nav>
+  
+  <div class="floating-bar">
+    <a href="https://wa.me/60124702868" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://weixin.qq.com" target="_blank" title="WeChat">
+      <i class="fab fa-weixin"></i>
+    </a>
+    <a href="https://www.facebook.com" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.tiktok.com" target="_blank" title="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank" title="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+  
+  <header id="home">
+    <h1>伍永强 Eddy Virgo</h1>
+  </header>
+  
+  <section id="about" class="section">
+    <div class="container">
+      <h2>关于我</h2>
+      <div class="about-content">
+        <div class="about-photo">
+          <img src="IMG-20240328-WA0048.jpg" alt="伍永强 Eddy Virgo Photo">
+        </div>
+        <div class="about-text">
+          <div class="info-block">
+            <p>印尼苏北省伍氏宗亲会现任主席。<p></p>中国籍贯：广东台山冲篓官窦。<p></p>印尼第五代华裔。</p>
+            <p>发迹理念：<strong>宽容，互动，适应，贡献</strong>。授予印尼在马移工能与当地社安宁共存。</p>
+            <p><strong>业余</strong>：商业顾问，讲师，业余音乐制作</p>
+          </div>
+          <div class="info-block">
+            <p><strong>印尼地址 (Indonesia):</strong><br>
+              106 Jalan Jend.A.Yani Medan 20111<br>
+              Sumatera Utara, Indonesia</p>
+            <p><strong>马来西亚地址 (Malaysia):</strong><br>
+              66, Jalan Kuantan, George Town 10150<br>
+              Penang, Malaysia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="enterprises" class="section">
+    <div class="container">
+      <h2>企业与职务</h2>
+      <div class="info-block">
+        <h3>企业</h3>
+        <p>IFree Group Hongkong Ltd., PT. IFreegroup Indonesia, PT. Worldwide Express Remittance, PT. Delimegah Sejahtera, PT. Indonesia Hrvest Investasi, PT. Uang Eloktronik Indonesia, PT. Quantum Metal Indonesia, PT. Mashrafiyah Harta Jaya, Capital System Technology Sdn Bhd, Inspirasi Akbar Sdn Bhd, Riverse World Cambodia, Quantum Metal Cambodia Ltd.</p>
+      </div>
+      <div class="info-block">
+        <h3>现任要职</h3>
+        <p>印尼海外招商会员，<p></p>印尼棉兰市政府驻马马来西亚理事，<p></p>棉兰-槟城姐妹市主席，<p></p>驻马来西亚印尼社会协会主席，印尼苏北省伍氏宗亲主席。</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="forum" class="section">
+    <div class="container">
+      <h2>国际论坛参与 & 文章</h2>
+      <div class="info-block">
+        <h3>论坛主题</h3>
+        <p>区块链置入投票系统迈向高质量民主主权 （克咯迪亚）<br>
+          <p></p>区块链：农业和粮食安全的催化剂 （马来西亚农业部）<br>
+          <p></p>人工智能趋势介入日常生活 （韩国）</p>
+      </div>
+      <div class="info-block">
+        <h3>文章</h3>
+        <p>平行则不撞。天下太平也！</p>
+      </div>
+      <div class="info-block">
+        <h3>劝世箴言</h3>
+        <p>昨日已逝，明日未现，唯独此刻，尚在我握。勿让它轻易从指缝间流逝。</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>联系方式</h2>
+      <div class="info-block">
+        <p><strong>电话:</strong> +60124702868</p>
+        <p><strong>电邮:</strong>
+          <a style="color:#8B4513;" href="mailto:eddyvirgo@mail.com">eddyvirgo@mail.com</a>
+        </p>
+      </div>
+      <div class="social-icons">
+        <a href="https://wa.me/60124702868" target="https://wa.me/60124702868" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://weixin.qq.com/" target="EddyVirgo" title="微信">
+          <i class="fab fa-weixin"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="https://facebook.com/eddyvirgo113" title="脸书">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="https://instagram.com/eddyvirgo113" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="https://linkedin.com/in/eddyvirgo" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.tiktok.com/" target="https://tiktok.com/virago35" title="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" title="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2016 伍永强 Eddy Virgo. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
