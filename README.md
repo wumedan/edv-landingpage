@@ -227,7 +227,7 @@
         <!-- Photo Section -->
         <div class="about-photo">
           <!-- Placeholder photo (replace with your personal photo if available) -->
-         <img src=”https://i.imgur.com/zcpsgqH.png " alt="A photo of Eddy Virgo">
+         <img src=”https://i.imgur.com/zcpsgqH.png" alt="A photo of Eddy Virgo">
         <!-- Textual Bio Section -->
         <div class="about-text">
           <div class="info-block">
