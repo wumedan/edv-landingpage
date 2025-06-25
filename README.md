@@ -1,4 +1,3 @@
-“Publisher Golden Color Landing page”
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -229,7 +228,7 @@
         <!-- Photo Section -->
         <div class="about-photo">
           <!-- Placeholder photo (replace with your personal photo if available) -->
-          <img src="https://via.placeholder.com/300x300.png?text=Personal+Photo" alt="伍永强 Eddy Virgo Photo">
+         <img src=”https://i.imgur.com/zcpsgqH.png "  alt="伍永强 Eddy Virgo Photo">
         </div>
         <!-- Textual Bio Section -->
         <div class="about-text">
