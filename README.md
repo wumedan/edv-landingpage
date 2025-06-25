@@ -228,8 +228,7 @@
         <!-- Photo Section -->
         <div class="about-photo">
           <!-- Placeholder photo (replace with your personal photo if available) -->
-         <img src=”https://i.imgur.com/zcpsgqH.png "  alt="伍永强 Eddy Virgo Photo">
-        </div>
+         \<img src=”https://i.imgur.com/zcpsgqH.png " alt="A photo of Eddy Virgo">
         <!-- Textual Bio Section -->
         <div class="about-text">
           <div class="info-block">
@@ -255,7 +254,7 @@
       <h2>企业与职务</h2>
       <div class="info-block">
         <h3>企业</h3>
-        <p>IFree Group Hongkong Ltd., PT. IFreegroup Indonesia, PT. Worldwide Express Remittance, PT. Delimegah Sejahtera, PT. Indonesia Hrvest Investasi, PT. Uang Eloktronik Indonesia, PT. Quantum Metal Indonesia, PT. Mashrafiyah Harta Jaya, Capital System Technology Sdn Bhd, Inspirasi Akbar Sdn Bhd, Riverse World Cambodia, Quantum Metal Cambodia Ltd.</p>
+        <p>IFree Group Hongkong Ltd., PT. IFreegroup Indonesia, PT. Worldwide Express Remittance, PT. Delimegah Sejahtera, PT. Indonesia Hrvest Investasi, PT. Uang Elektronik Indonesia, PT. Quantum Metal Indonesia, PT. Mashrafiyah Harta Jaya, Capital System Technology Sdn Bhd, Inspirasi Akbar Sdn Bhd, Riverse World Cambodia, Quantum Metal Cambodia Ltd.</p>
       </div>
       <div class="info-block">
         <h3>现任要职</h3>
